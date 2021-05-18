@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #aacdf08f;
+    font-family: 'Roboto', sans-serif;
+    color:#8f9194;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.block-image{
+    background-color: #aacdf0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.block-image img{
+    width: 200px;
+    height: 200px;
+}
+
+.block-text{
+    margin:30px 40px 0;
+}
+
+.block-text h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.block-text p{
+    color:#a6aebb;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.img-croix{
+    width: 24px;
+    height: 24px;
+}
+
+.content{
+    padding: 0;
+}
+
+.container-img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+.block-text{
+    margin-left: 40px;
+    width: 100%;
+
+}
+
+.small-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.spn{
+    color: #138be1;
+    text-transform: capitalize;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.block-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #aacdf08f;
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.block-icon p{
+    color: #138be1;
+    font-size: 25px;
+    margin: 0 0 0 5px;
+    font-size: 20px;
+}
+
+.icon{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.block-txt{
+    padding: 30px;
+}
+
+.block-txt h1{
+    margin-top: 30px;
+}
+
+.txt-box{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+/* -------formulaire d'inscription------ */
+
+
+.container-row{
+display: block;
+padding: 30px;
+width: 400px;
+background-color: #fff;
+}
+
+.container-row h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    color: #000;
+}
+
+.graphe{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulaire{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.croix-rigth{
+    position: absolute;
+    right: 10%;
+    width: 15px;
+    height: 15px;
+} 
+
+
+
+.cadenas{
+    width: 18px;
+    height: 18px;
+}
+
+
+.formulaire input{
+    width: 100%;
+    height: 45px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    border: 1px solid #f3f3f3;
+    padding-left: 20px;
+    
+}
+
+
+.txt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-sub{
+    border-radius: 10px;
+    background-color:#3ab9fd;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.graphe-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 10px 0;
+}
+
+
+.graphe-line{
+    content: "";
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(128, 128, 128, 0.267);
+    position: absolute;
+    top: calc(70% - 1px);
+}
+
+.graphe-line span {
+    display: inline-block;
+    padding: 0 10px;
+    background: #fff;;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color:#d8f3fe;
+    color: #3ab9fd;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+
+.cadenas{
+    position: absolute;
+    top: 50%;
+}
+
+.icon-btn{
+    margin-right: 10px;
+}
+
+.graphe a{
+    color: #8f9194;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.lien{
+    color: #8f9194;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.p-lien{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
